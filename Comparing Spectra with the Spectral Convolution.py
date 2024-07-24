@@ -25,7 +25,7 @@ class Comparing_Spectra_with_the_Spectral_Convolution:
                   counter+=1
                   if counter >= (all_possible.count(idx)+1):
                      break
-        return print(dict_)
+        return print(max(list(dict_.values())))
 
 
 if __name__=="__main__":               
